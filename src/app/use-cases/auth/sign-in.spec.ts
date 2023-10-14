@@ -5,7 +5,7 @@ import { AuthService } from '@app/providers/auth-service';
 import { InMemoryAuthService } from '@test/in-memory/in-memory-auth-service';
 import { PasswordHasher } from '@app/providers/password-hasher';
 import { InMemoryPasswordHasher } from '@test/in-memory/in-memory-password-hasher';
-import { User } from '@domain/User';
+import { User } from '@domain/user';
 import { UnauthorizedException } from '@nestjs/common';
 
 describe('SignIn', () => {

@@ -1,7 +1,7 @@
 import { UsersRepository } from '@app/repositories/users-repository';
 import { FindUser } from './find-user';
 import { InMemoryUsersRepository } from '@test/in-memory/in-memory-user-repository';
-import { User } from '@domain/User';
+import { User } from '@domain/user';
 import { NotFoundException } from '@nestjs/common';
 
 describe('FindUser', () => {

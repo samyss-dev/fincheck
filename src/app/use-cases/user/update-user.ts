@@ -5,7 +5,7 @@ import {
 } from '@nestjs/common';
 import { UsersRepository } from '@app/repositories/users-repository';
 import { PasswordHasher } from '@app/providers/password-hasher';
-import { User } from '@domain/User';
+import { User } from '@domain/user';
 
 interface UpdateUserRequest {
   id: string;

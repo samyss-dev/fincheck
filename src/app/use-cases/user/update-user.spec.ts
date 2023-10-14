@@ -3,7 +3,7 @@ import { PasswordHasher } from '@app/providers/password-hasher';
 import { UsersRepository } from '@app/repositories/users-repository';
 import { UpdateUser } from '@app/use-cases/user/update-user';
 import { InMemoryPasswordHasher } from '@test/in-memory/in-memory-password-hasher';
-import { User } from '@domain/User';
+import { User } from '@domain/user';
 import { ConflictException, NotFoundException } from '@nestjs/common';
 
 describe('UpdateUser', () => {
