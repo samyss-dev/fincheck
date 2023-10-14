@@ -1,4 +1,4 @@
-# Inventory Management API
+# Finacial Management API
 
 Here is a financial management API developed using TypeScript, NestJs, Prisma, PostgreSQL, and Jest (for testing). The API adheres to clean architecture principles to ensure a clean and modular structure
 
