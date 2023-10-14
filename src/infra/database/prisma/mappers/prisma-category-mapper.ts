@@ -1,4 +1,4 @@
-import { Category } from '@domain/Category';
+import { Category } from '@domain/category';
 import { transactionType } from '@domain/transaction';
 import { Category as PrismaCategory } from '@prisma/client';
 
